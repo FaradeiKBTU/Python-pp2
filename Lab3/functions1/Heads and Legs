@@ -1,0 +1,10 @@
+
+def solve(numheads, numlegs):
+    rabbit = (numlegs/2) - numheads
+    chick = numheads - rabbit
+    return rabbit,chick
+
+head = int(input())
+legs = int(input())
+
+print(solve(head,legs))
