@@ -1,6 +1,0 @@
-def ounce(n):
-    ounce = 28.3495231 * n
-    return ounce
-
-gramms = int(input())
-print( ounce(gramms) )
